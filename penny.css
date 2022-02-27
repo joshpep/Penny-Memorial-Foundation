@@ -1,0 +1,177 @@
+
+
+*{
+
+    scroll-behavior: smooth;
+}
+
+
+header {
+    
+position: fixed;
+ 
+right: 0;
+ 
+left: 0;
+ 
+z-index: 999;
+
+background-color:#00adf1;
+
+
+  
+}
+
+.navlinks{
+
+    background-color:#00adf1;
+}
+
+.navul{
+
+    color:#00adf1;
+}
+
+.logo {
+    display: flex;
+
+    justify-content: center;
+    
+}
+
+.stick {
+    
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+   height: 20px; 
+   background-color:#00adf1;
+
+}
+
+nav  {
+    
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#00adf1;
+    padding: 0px 25px;
+    background-color: #00adf1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+
+
+
+nav ul li  {
+    display: inline;
+    font-family:cursive;
+    font-weight: 500;
+    font-size: 12px;
+    list-style: none;
+    padding: 0px 20px;
+    background-color:#00adf1;
+}
+
+.topline {
+    background-color: #00adf1;
+    
+    padding-bottom: 80px;
+    min-height: 50px;
+    
+    
+}
+
+
+.bottomline {
+
+    background-color: #a4ce3a;
+    
+    padding-bottom: 80px;
+    min-height: 50px;
+
+
+}
+
+button {
+    padding: 0px 25px;
+    background-color: #00adf1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #a4ce3a;
+}
+
+
+
+address{
+    margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 25%;
+  background-color: white ;
+  align-items: center;
+  color: #000000;
+  font-size: 20px;
+ 
+}
+
+.about, .programs, .founder  {
+    
+     margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 25%;
+  background-color: white ;
+  align-items: center;
+ 
+}
+
+p, h1, h2, h3, .ful,.pul {
+
+
+    background-color:white;
+    color: #000000;
+    font-size: 20px;
+
+    
+  
+}
+p{
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 0 15px;
+  
+}
+
+
+
+h1 {
+    text-align: center;
+
+
+}
+
+input{
+    margin-bottom: 15px;
+    padding: 20px;
+    border: none;
+    box-shadow: none;
+    
+}
+
+#street{
+    margin-left: 10%;
+}
